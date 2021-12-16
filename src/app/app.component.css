@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+    background-color: black;
+
+}
+
+ul li{
+    padding: 5px 10px;
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+}

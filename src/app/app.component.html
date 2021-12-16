@@ -1,0 +1,13 @@
+<nav>
+  <ul>
+    <li> <a routerLink="/" >Home</a></li>
+    <li> <a routerLink="/person" >Person</a></li>
+    <li> <a>Contact Us</a></li>
+  </ul>
+</nav>
+
+<div *ngIf="route.url=='/person' ">
+  <a routerLink="person/info">Click</a>
+</div>
+
+<router-outlet></router-outlet>
